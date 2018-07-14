@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+	<listeners>
+		<listener class-name="com.elk.demo.ExecutionListener" />
+	</listeners>
+	<test name="Test 1">
+		<classes>
+			<class name="com.elk.demo.MyTest"></class>
+		</classes>
+	</test>
+	<test name="Test 2">
+		<classes>
+			<class name="com.elk.demo.MyTest"></class>
+		</classes>
+	</test>
+	<test name="Test 3">
+		<classes>
+			<class name="com.elk.demo.MyTest"></class>
+		</classes>
+	</test>
+</suite>
